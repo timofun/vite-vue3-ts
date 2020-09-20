@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8af480c-5c1f-4ba9-9f39-bb138dccf313" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/home/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/layout/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/todo-list.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shim.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/shim.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/todo-list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/todo-list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600498452291</updated>
       <workItem from="1600498454073" duration="3735000" />
-      <workItem from="1600594635791" duration="4338000" />
+      <workItem from="1600594635791" duration="5188000" />
     </task>
     <servers />
   </component>
@@ -60,5 +59,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="553" y="324" key="EditFileWatcherDialog" timestamp="1600605394369">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state x="553" y="324" key="EditFileWatcherDialog/0.23.1792.1039@0.23.1792.1039" timestamp="1600605394369" />
   </component>
 </project>

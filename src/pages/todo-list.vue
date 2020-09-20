@@ -87,9 +87,11 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style scoped lang="less">
+  //@import "todo-list";
 .todo-list {
   text-align: center;
+  color: @preprocess-custom-color;
 }
 
 .todo-list ul li {
