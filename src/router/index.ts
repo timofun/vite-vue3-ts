@@ -11,5 +11,11 @@ export default createRouter({
   // 指定路由的模式,此处使用的是hash模式
   history: createWebHashHistory(),
   // 路由地址
-  routes: []
+  routes: [
+    {
+      path: '/todolist',
+      // 必须添加.vue后缀
+      component: () => import('../pages/todo-list.vue')
+    }
+  ]
 })
