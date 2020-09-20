@@ -20,14 +20,20 @@
         <label>{{item.text}}</label>
       </li>
     </ul>
+    <Test @onChange="handleChangeInput" :value="state.inputValue"/>
+    <div>{{ state.inputValue }}</div>
   </div>
 </template>
 <script lang="ts">
 // 在vue2中 data 在vue3中使用 reactive代替
 import { reactive, computed } from 'vue'
+import Test from './test.tsx'
 import { useRouter } from 'vue-router'
 
 export default {
+  components: {
+    Test
+  },
   // setup相当于vue2.0的 beforeCreate和 created，是vue3新增的一个属性，所有的操作都在此属性中完成
   setup(props, context) {
     // 通过reactive 可以初始化一个可响应的数据，与Vue2.0中的Vue.observer很相似
@@ -45,7 +51,8 @@ export default {
         done: false,
         text: '打豆豆'
       }],
-      todo: ''
+      todo: '',
+      inputValue: 'hahah'
     })
     // 使用计算属性生成待办列表
     const todos = computed(() => {
@@ -60,6 +67,10 @@ export default {
     // 修改待办状态
     const handleChangeStatus = (item, status) => {
       item.done = status
+    }
+
+    const handleChangeInput = (e) => {
+      state.inputValue = e
     }
 
     // 新增待办
@@ -82,7 +93,8 @@ export default {
       todos,
       dones,
       handleChangeStatus,
-      handleAddTodo
+      handleAddTodo,
+      handleChangeInput
     }
   }
 }
