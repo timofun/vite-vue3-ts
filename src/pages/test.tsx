@@ -12,7 +12,7 @@ const Input = defineComponent({
       console.log('event', event, value)
     }
     return () => (
-      <input value={props.value} onInput={(e) => handleChange(e as KeyboardEvent)} />
+      <input value={props.value} onInput={(e) => handleChange(e as KeyboardEvent)}/>
     )
   }
 })

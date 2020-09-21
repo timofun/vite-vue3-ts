@@ -100,7 +100,7 @@ export default {
 }
 </script>
 <style scoped lang="less">
-  //@import "todo-list";
+//@import "todo-list";
 .todo-list {
   text-align: center;
   color: @preprocess-custom-color;
