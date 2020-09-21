@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8af480c-5c1f-4ba9-9f39-bb138dccf313" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/js/code.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/request/axios.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/request/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/storage/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/storage/storage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/type.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/todo-list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/todo-list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +69,7 @@
       <updated>1600498452291</updated>
       <workItem from="1600498454073" duration="3735000" />
       <workItem from="1600594635791" duration="11744000" />
-      <workItem from="1600648093227" duration="10166000" />
+      <workItem from="1600648093227" duration="15123000" />
     </task>
     <servers />
   </component>
@@ -84,6 +93,10 @@
       <screen x="0" y="23" width="1792" height="1039" />
     </state>
     <state x="351" y="234" key="SettingsEditor/0.23.1792.1039@0.23.1792.1039" timestamp="1600661668843" />
+    <state x="712" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600671297432">
+      <screen x="0" y="23" width="1792" height="1039" />
+    </state>
+    <state x="712" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1039@0.23.1792.1039" timestamp="1600671297432" />
     <state x="620" y="357" key="jetbrains.nodejs.interpreters-dialog" timestamp="1600661598028">
       <screen x="0" y="23" width="1792" height="1039" />
     </state>

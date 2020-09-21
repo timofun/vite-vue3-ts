@@ -1,7 +1,7 @@
 <template>
   <div class="todo-list">
     <div>
-      <label>新增待办</label>
+      <label>新增待办{{ store.state.userName }}</label>
       <input v-model="state.todo" @keyup.enter="handleAddTodo">
     </div>
     <div>
@@ -29,10 +29,13 @@
 import { reactive, computed } from 'vue'
 import Test from './test.tsx'
 import { useRouter } from 'vue-router'
-
+import { useStore } from 'vuex'
+import request from '/@/utils/request'
 export default {
   components: {
     Test
+  },
+  computed: {
   },
   // setup相当于vue2.0的 beforeCreate和 created，是vue3新增的一个属性，所有的操作都在此属性中完成
   setup(props, context) {
@@ -54,6 +57,8 @@ export default {
       todo: '',
       inputValue: 'hahah'
     })
+    const store = useStore()
+    request('hahaha')
     // 使用计算属性生成待办列表
     const todos = computed(() => {
       return state.todoList.filter(item => !item.done)
@@ -89,6 +94,7 @@ export default {
 
     // 在Vue3.0中，所有的数据和方法都通过在setup 中 return 出去，然后在template中使用
     return {
+      store,
       state,
       todos,
       dones,
