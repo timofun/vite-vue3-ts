@@ -4,6 +4,7 @@ module.exports = {
   alias: {
     '/@/': path.resolve(__dirname, './src')
   },
+  open: true,
   // css预处理器配置
   cssPreprocessOptions: {
     less: {

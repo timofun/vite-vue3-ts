@@ -12,7 +12,6 @@ const Input = defineComponent({
       console.log('event', event, value)
     }
     return () => (
-      // @ts-ignore
       <input value={props.value} onInput={(e) => handleChange(e as KeyboardEvent)} />
     )
   }
