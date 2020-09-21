@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/todo-list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/todo-list.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       <updated>1600498452291</updated>
       <workItem from="1600498454073" duration="3735000" />
       <workItem from="1600594635791" duration="11744000" />
-      <workItem from="1600648093227" duration="9976000" />
+      <workItem from="1600648093227" duration="10166000" />
     </task>
     <servers />
   </component>

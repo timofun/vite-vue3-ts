@@ -21,7 +21,7 @@ module.exports = {
     indent: ['error', 2],
     'space-before-blocks': ['error', 'always'],
     // function的参数前加空格
-    'space-before-function-paren': 2,
+    // 'space-before-function-paren': 2,
     // @fixable 操作符左右必须有空格，比如 let sum = 1 + 2;
     'space-infix-ops': 'error',
     // @fixable 注释的斜线或 * 后必须有空格

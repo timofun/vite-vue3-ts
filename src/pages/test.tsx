@@ -3,7 +3,6 @@ import { defineComponent } from 'vue'
 interface InputProps {
   value: string;
 }
-
 const Input = defineComponent({
   setup(props: InputProps, { emit }) {
     const handleChange = (event: KeyboardEvent) => {
